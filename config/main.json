@@ -1,0 +1,32 @@
+{
+  "load": {
+      "process": "process1",
+      "model": "model1"
+  },
+  "data": {
+        "raw": {
+            "dir": "../data/raw",
+            "name": {
+                "file1": "_file1"
+            }
+        },
+        "processed": {
+            "dir": "../data/processed",
+            "name": {
+                "file1": "_file1"
+            }
+        },
+        "final": {
+            "dir": "../data/final",
+            "name": {
+                "file1": "_file1"
+            }
+        }
+  },
+  "model": {
+    "dir": "../models",
+    "name": {
+        "model1": "_model1"
+    }
+  }
+}
